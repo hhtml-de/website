@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "href": "/"
+    },
+    {
+      "text": "FAQ",
+      "href": "/faq/"
+    },
+    {
+      "text": "Code of Conduct",
+      "href": "/code-of-conduct/"
+    },
+    {
+      "text": "CFP",
+      "href": "/cfp/"
+    }
+  ]
+}

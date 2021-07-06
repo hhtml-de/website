@@ -1,0 +1,9 @@
+<svg focusable="false" aria-hidden="true" viewBox="0 0 200 50">
+  <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5">
+    <path class="logo__hh" d="M10 10 h10 v10 h10 v-10 h10 v30 h-10 v-10 h-10 v10 h-10z" />
+    <path class="logo__hh" d="M50 10 h10 v10 h10 v-10 h10 v30 h-10 v-10 h-10 v10 h-10z" />
+    <path d="M90 10 h30 v10 h-10 v20 h-10 v-20 h-10z"/>
+    <path d="M130 10 h10 l5 5 l5 -5 h10 v30 h-10 v-20 l-5 5 l-5 -5 v20 h-10z"/>
+    <path d="M170 10 h10 v20 h10 v10 h-20z" />
+  </g>
+</svg>
