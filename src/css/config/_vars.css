@@ -1,0 +1,36 @@
+/* dark theme */
+
+:root {
+  --header-bg-color: #222;
+  --footer-bg-color: #000;
+  --nav-bg-color: #333;
+  --nav-fg-color: #fff;
+  --nav-bg-hover-color: #444;
+  --nav-bg-active-color: #222;
+  --bg-color: #111;
+  --fg-color: #fff;
+  --link-color: #3bf;
+  --link-visit-color: #eaf;
+  --link-hover-color: #fff;
+  --logo-stroke: #fff;
+  --logo-stroke-hh: #f37;
+  
+  --headline-fg: #fe7;
+  --headline-fg-2: #fb6;
+  --subtitle-fg: #ccc;
+  --header-bg-color: #000;
+  --header-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 150' style='z-index: -1'%3E%3Cg fill='%23000'%3E%3Cpath d='M0 0 v50 s100 30 200 0 s100 -30 200 0 v-50z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* light theme */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --fg-color: #111;
+    --bg-color: #fff;
+    --header-bg-color: #f4f4f4;
+    --footer-bg-color: #000000;
+    --link-color: #26f;
+    --header-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 150' style='z-index: -1'%3E%3Cg fill='%23fff'%3E%3Cpath d='M0 0 v100 s100 10 200 0 s100 -10 200 0 v-100z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+}
