@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Code of Conduct
 description: Code of Conduct of the Hamburg HTML meetup.
 ---
-# Contributor Covenant Code of Conduct
+# HHTML Code of Conduct
 
 ## Our Pledge
 
