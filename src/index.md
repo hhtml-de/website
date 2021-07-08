@@ -12,7 +12,7 @@ We'd like to cover HTML related topics like semantic markup, accessibility, scre
 
 ## Upcoming Events
 
-The next event will be on August 31, 2021 19pm CEST.
+The next event will be on August 31, 2021 7pm CEST.
 
 RSVP via [Meetup](https://www.meetup.com/de-DE/hhhtml/).
 
