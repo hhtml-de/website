@@ -1,5 +1,6 @@
 module.exports = {
-  name: "HHTML",
-  description: 'Hamburg HTML meetup',
+  name: 'HHTML',
   url: '',
+  authorName: 'Lea Rosema',
+  authorEmail: 'terabaud@gmail.com'
 };

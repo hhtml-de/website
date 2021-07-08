@@ -23,7 +23,7 @@ nav > ul {
 }
 
 .topnav a {
-  font-size: var(--step--1);
+  font-size: 1.25rem;
   background: var(--nav-bg-color);
   color: var(--nav-fg-color);
   text-decoration: none;
@@ -35,11 +35,12 @@ nav > ul {
   background: var(--nav-bg-active-color);
 }
 
-.topnav a:hover,
-.topnav a[aria-current="page"] {
+.topnav a:hover {
   background: var(--nav-bg-hover-color);
 }
 
-footer > nav > ul {
-  flex-direction: column;
+.topnav a[aria-current="page"] {
+  background: var(--nav-bg-current-color);
+  color: var(--nav-fg-current-color);
+  text-decoration: underline;
 }

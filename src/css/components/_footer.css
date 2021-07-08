@@ -1,4 +1,37 @@
 footer {
-  color: var(--fg-color);
+  margin-top: 5rem;
+  padding: 2rem 1rem;
+  color: var(--footer-fg-color);
   background: var(--footer-bg-color);
 }
+
+footer p {
+  text-align: center;
+}
+
+footer > * + * {
+  margin-block-start: 1rem;
+}
+
+footer nav {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer nav ul {
+  justify-content: center;
+}
+
+footer nav li + li {
+  margin-inline-start: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a[aria-current="page"] {
+  text-decoration: underline;
+  color: var(--footer-current-link-color);
+}
+

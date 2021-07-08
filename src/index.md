@@ -6,6 +6,14 @@ description: Hamburg HTML meetup
 # Hamburg HTML meetup
 <span role="doc-subtitle">putting HTML back into the :focus</span>
 
-Welcome to the Hamburg HTML meetup. The meetup stands for putting more love into your markup, as HTML is the most underrated programming language.
+Welcome to the Hamburg HTML meetup. HTML is the most underrated programming language. This is why it deserves a meetup :).
 
-Disclaimer: it doesn't stand for bashing other languages. We'd like to discuss HTML related topics like semantic markup, accessibility, screen readers, SEO, performance and progressive enhancement.
+We'd like to cover HTML related topics like semantic markup, accessibility, screen readers, SEO, performance and progressive enhancement.
+
+## Upcoming Events
+
+The next event will be on August 31, 2021 19pm CEST.
+
+RSVP via [Meetup](https://www.meetup.com/de-DE/hhhtml/).
+
+With friendly support from [factorial](https://factorial.io).

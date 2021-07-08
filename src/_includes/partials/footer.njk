@@ -1,3 +1,12 @@
 <footer class="footer">
   <p>made with <span aria-label="love">💖</a> by <a href="https://terabaud.github.io/">Lea Rosema</a></p>
+  <nav class="footer-nav" id="footer-nav" aria-label="Footer navigation">
+    <ul>
+    {% for item in footer.items %}
+      <li>
+        <a href="{{ site.url }}{{ item.href }}" {{ helpers.getLinkActiveState(item.href, page.url) | safe }}>{{ item.text }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
 </footer>
