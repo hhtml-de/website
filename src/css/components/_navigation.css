@@ -21,26 +21,3 @@ nav > ul {
 .topnav li + li {
   margin-inline-start: .5rem;
 }
-
-.topnav a {
-  font-size: 1.25rem;
-  background: var(--nav-bg-color);
-  color: var(--nav-fg-color);
-  text-decoration: none;
-  padding: 1rem 2rem; 
-  border-radius: .5rem;
-}
-
-.topnav a:active {
-  background: var(--nav-bg-active-color);
-}
-
-.topnav a:hover {
-  background: var(--nav-bg-hover-color);
-}
-
-.topnav a[aria-current="page"] {
-  background: var(--nav-bg-current-color);
-  color: var(--nav-fg-current-color);
-  text-decoration: underline;
-}

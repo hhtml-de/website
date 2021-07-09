@@ -15,6 +15,11 @@ main {
   margin: 1rem;
 }
 
+main:focus,
+main:active {
+  outline: none;
+}
+
 main > article {
   max-width: 1000px;
   margin: 0 auto;

@@ -1,0 +1,39 @@
+/* button reset */
+button {
+  -webkit-appearance: none;
+  font-family: inherit;
+  font-size: 100%;
+  border: 0;
+  padding: 0;
+}
+
+button,
+.button {
+  font-size: 1.25rem;
+  background: var(--nav-bg-color);
+  color: var(--nav-fg-color);
+  text-decoration: none;
+  padding: 1rem 2rem; 
+  border-radius: .5rem;
+}
+
+button:active,
+.button:active {
+  background: var(--nav-bg-active-color);
+}
+
+button:focus,
+.button:focus {
+  background: var(--nav-bg-focus-color);
+}
+
+button:hover,
+.button:hover {
+  background: var(--nav-bg-hover-color);
+}
+
+a.button[aria-current="page"] {
+  background: var(--nav-bg-current-color);
+  color: var(--nav-fg-current-color);
+  text-decoration: underline;
+}

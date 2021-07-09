@@ -4,6 +4,8 @@
 @import "config/_global.css";
 @import "config/_typography.css";
 
+@import "components/_button.css"; 
+@import "components/_skip-link.css";  
 @import "components/_header.css";
 @import "components/_footer.css";
 @import "components/_logo.css";
