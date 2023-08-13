@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 title: Call for proposals
 description: Submit your talk as a GitHub issue in our GitHub repository.
+eleventyExcludeFromCollections: true
 ---
 
 # Call for proposals
