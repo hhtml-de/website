@@ -1,10 +1,9 @@
 ---
 layout: layouts/base.njk
-title: Home
+title: Hamburg HTML meetup
+subtitle: putting HTML back into the :focus
 description: Hamburg HTML meetup
 ---
-# Hamburg HTML meetup
-<span role="doc-subtitle">putting HTML back into the :focus</span>
 
 Welcome to the Hamburg HTML meetup. HTML is the most underrated programming language. This is why it deserves a meetup :).
 
