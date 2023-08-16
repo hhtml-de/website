@@ -2,7 +2,7 @@ const dom = require('linkedom');
 const htmlmin = require('html-minifier-terser');
 const isProduction = process.env.ELEVENTY_ENV === 'production';
 
-const transforms = require('../transforms/index.js');
+const transforms = require('./transforms/index.js');
 
 const minify = (content) => htmlmin.minify(content, {
   collapseBooleanAttributes: true,

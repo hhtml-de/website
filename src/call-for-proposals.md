@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: base.njk
 title: Call for proposals
 description: Submit your talk as a GitHub issue in our GitHub repository.
 eleventyExcludeFromCollections: true

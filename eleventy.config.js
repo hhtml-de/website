@@ -1,6 +1,5 @@
 const pluginsPlugin = require('./plugins');
 
-
 module.exports = (eleventyConfig) => {
   // custom watch targets
   eleventyConfig.addWatchTarget('./src/assets');
@@ -12,9 +11,9 @@ module.exports = (eleventyConfig) => {
 
   // passthrough copy
   
-  config.addPassthroughCopy('./src/svg/');
-  config.addPassthroughCopy('./src/assets/images/');
-  config.addPassthroughCopy('./src/assets/fonts/');
+  eleventyConfig.addPassthroughCopy('./src/svg/');
+  eleventyConfig.addPassthroughCopy('./src/assets/images/');
+  eleventyConfig.addPassthroughCopy('./src/assets/fonts/');
 
   // social icons to root directory
   eleventyConfig.addPassthroughCopy({

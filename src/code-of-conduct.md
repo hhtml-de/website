@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: base.njk
 title: Code of Conduct
 description: Code of Conduct of the Hamburg HTML meetup.
 eleventyExcludeFromCollections: true
