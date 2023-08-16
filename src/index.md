@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: base.njk
 title: Hamburg HTML meetup
 subtitle: putting HTML back into the :focus
 description: Hamburg HTML meetup

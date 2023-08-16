@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: base.njk
 title: Frequently asked questions
 description: Frequently asked questions about the Hamburg HTML meetup.
 ---

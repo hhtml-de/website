@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+  <meta name="description" content="{{ description }}">
+  <title>
+    {{ title }} | {{ site.name }}
+  </title>
+  <style>
+    {% include 'css/index.css' %}
+  </style>  
+</head>
+<body>
+  {% include 'skip-link.njk' %}
+  {% include 'header.njk' %}
+  {% include 'navigation.njk' %}
+  <main id="main-content" tabindex="-1">
+    <article class="flow">
+      {{ content | safe }}
+    </article>
+  </main>
+  {% include 'footer.njk' %}
+</body>
+</html>
