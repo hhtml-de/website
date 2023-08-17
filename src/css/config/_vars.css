@@ -1,17 +1,17 @@
 /* dark theme */
 
 :root {
-  --header-bg-color: #222;
-  --footer-bg-color: #000;
-  --nav-bg-color: #333;
-  --nav-fg-color: #fff;
-  --nav-bg-hover-color: #444;
-  --nav-bg-active-color: #222;
-  --nav-bg-focus-color: #444;
+  --header-bg: #324;
+  --footer-bg: #000;
+  --nav-bg: #000;
+  --nav-fg: #fff;
+  --nav-bg-hover-color: #423;
+  --nav-bg-active-color: #312;
+  --nav-bg-focus-color: #423;
   --nav-bg-current-color: #c15;
   --nav-fg-current-color: #fff;
-  --bg-color: #111;
-  --fg-color: #fff;
+  --bg: #222;
+  --fg: #fff;
   --link-color: #3bf;
   --link-visit-color: #eaf;
   --link-hover-color: #fff;
@@ -22,32 +22,36 @@
   --headline-fg: #fc7;
   --headline-fg-2: #fb6;
   --subtitle-fg: #ccc;
-  --header-fg-color: #fff;
-  --header-bg-color: #000;
-  --header-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 150'%3E%3Cg fill='%23000'%3E%3Cpath d='M0 0 v50 s100 30 200 0 s100 -30 200 0 v-50z'/%3E%3C/g%3E%3C/svg%3E");
-  --footer-bg-color: #000;
-  --footer-fg-color: #eee;
+  --header-fg: #fff;
+  --header-bg: #324;
+  --header-waves: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 150'%3E%3Cg fill='%23324'%3E%3Cpath d='M0 0 v50 s100 30 200 0 s100 -30 200 0 v-50z'/%3E%3C/g%3E%3C/svg%3E");
+  --footer-bg: #000;
+  --footer-fg: #eee;
   --footer-current-link-color: #f7b;
+  --card-bg: #000;
+  --card-fg: #fff;
 }
 
 /* light theme */
 
 @media (prefers-color-scheme: light) {
   :root {
-    --fg-color: #111;
-    --bg-color: #f4f4f4;
-    --footer-bg-color: #eee;
-    --footer-fg-color: #111111;
+    --fg: #111;
+    --bg: #f4f4f4;
+    --card-bg: #fff;
+    --card-fg: #000;
+    --footer-bg: #eee;
+    --footer-fg: #111111;
     --link-color: #26f;
     --headline-fg: #867;
     --headline-fg-2: #806070;
     --subtitle-fg: #f37;
-    --header-fg-color: #777;
-    --header-bg-color: #fff;
+    --header-fg: #777;
+    --header-bg: #fae;
     --nav-bg-hover-color: #867;
     --nav-bg-hover-color: #978;
     --nav-bg-active-color: #654;
     --footer-current-link-color: #f15;
-    --header-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 150'%3E%3Cg fill='%23f0f'%3E%3Cpath d='M0 0 v50 s100 30 200 0 s100 -30 200 0 v-50z'/%3E%3C/g%3E%3C/svg%3E");  
+    --header-waves: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 150'%3E%3Cg fill='%23fae'%3E%3Cpath d='M0 0 v50 s100 30 200 0 s100 -30 200 0 v-50z'/%3E%3C/g%3E%3C/svg%3E");  
   }
 }

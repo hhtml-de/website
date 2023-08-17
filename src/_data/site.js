@@ -1,6 +1,6 @@
 module.exports = {
   name: 'HHTML',
-  url: '',
+  url: process.env.URL || '',
   authorName: 'Lea Rosema',
   authorEmail: 'terabaud@gmail.com'
 };
