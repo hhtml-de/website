@@ -9,15 +9,15 @@ description: Frequently asked questions about the Hamburg HTML meetup.
 
 ## Where will the meetup take place?
 
-The meetup is location-independent and fully remote. We plan to provide future in-person meetups when it is safe again.
+This differs from meetup to meetup. :)
 
 ## In what language will the meetup be?
 
 The meetup will be in english.
 
-## Is the meetup only about HTML and nothing else? 
+## Is the meetup only about HTML and nothing else?
 
-No, we are not a HTML-only meetup. We love to hear what you build with HTML in combination with other technologies. Do you want to share HTML and CSS tricks for accessibility? Want to talk about a JavaScript framework that builds on progressive enhancement? Have tips on improving page load performance? Go for it!
+No, we are not a HTML-only meetup. We love to hear what you build with HTML in combination with other technologies. Do you want to share HTML and CSS tricks for accessibility? Have a talk about web standards? Want to talk about a JavaScript framework? Ideally one that builds on progressive enhancement? Have tips on improving page load performance? Go for it!
 
 ## But I prefer to work with \<framework\> and not with HTML
 

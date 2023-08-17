@@ -4,4 +4,4 @@ title: Contact
 description: Contact options
 ---
 
-Twitter: [https://lea.lgbt/@hhtml](https://lea.lgbt/@hhtml)
+Mastodon: [https://lea.lgbt/@hhtml](https://lea.lgbt/@hhtml)

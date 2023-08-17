@@ -1,6 +1,6 @@
 /* button reset */
 button {
-  -webkit-appearance: none;
+  appearance: none;
   font-family: inherit;
   font-size: 100%;
   border: 0;
@@ -10,11 +10,12 @@ button {
 button,
 .button {
   font-size: 1.25rem;
-  background: var(--nav-bg-color);
-  color: var(--nav-fg-color);
+  background: var(--nav-bg);
+  color: var(--nav-fg);
   text-decoration: none;
   padding: 1rem 2rem; 
   border-radius: .5rem;
+  box-shadow: 0 0 20px #0007;
 }
 
 button:active,

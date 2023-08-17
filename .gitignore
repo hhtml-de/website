@@ -4,5 +4,5 @@ npm-debug.*
 Thumbs.db 
 
 node_modules
-public
+dist
 src/_includes/css

@@ -1,0 +1,10 @@
+<ul role="list" class="auto-grid" style="--min: 60ch">
+  {%- for event in collections.events | reverse | limit(5) -%}
+    <li class="card">
+      <article class="flow">
+        <h3><a href="{{ event.url }}">{{ event.data.title }}</a></h3>
+        <time datetime="{{ event.data.date | isoDate }}">{{ date | formatDate('DD.MM.YYYY') }}</time>
+      </article>
+    </li>
+  {%- endfor -%}
+</ul>

@@ -14,14 +14,14 @@
   </style>  
 </head>
 <body>
-  {% include 'partials/skip-link.njk' %}
-  {% include 'partials/header.njk' %}
-  {% include 'partials/navigation.njk' %}
+  {% include 'skip-link.njk' %}
+  {% include 'header.njk' %}
+  {% include 'navigation.njk' %}
   <main id="main-content" tabindex="-1">
     <article class="flow">
       {{ content | safe }}
     </article>
   </main>
-  {% include 'partials/footer.njk' %}
+  {% include 'footer.njk' %}
 </body>
 </html>

@@ -9,9 +9,7 @@
   <title>
     {{ title }} | {{ site.name }}
   </title>
-  <style>
-    {% include 'css/index.css' %}
-  </style>  
+  <link rel="stylesheet" href="{{ site.url }}/css/styles.css">
 </head>
 <body>
   {% include 'skip-link.njk' %}
@@ -19,6 +17,7 @@
   {% include 'navigation.njk' %}
   <main id="main-content" tabindex="-1">
     <article class="flow">
+      <h1>{{ title}}</h1>
       {{ content | safe }}
     </article>
   </main>

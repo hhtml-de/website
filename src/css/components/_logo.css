@@ -2,6 +2,7 @@
   display: block;
   color: inherit;
   width: max(50vmin, 300px);
+  filter: drop-shadow(0 0 8px #fff);
 }
 
 .logo svg {

@@ -1,0 +1,48 @@
+---
+permalink: /rss.xml
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  {%- set posts = collections.all -%}
+  <channel>
+    <title>{{ meta.siteName }}</title>
+    <atom:link href="{{ meta.url }}/rss.xml" rel="self" type="application/rss+xml" />
+    <link>{{ meta.url }}</link>
+    <description>{{ meta.siteDescription }}</description>
+    <pubDate>{{ posts | getNewestCollectionItemDate | dateToRfc822 }}</pubDate>
+    <lastBuildDate>{{ global.currentDate() | dateToRfc822 }}</lastBuildDate>
+    <language>{{ meta.lang }}</language>
+    <copyright>(c) {% year %} {{ meta.author }}</copyright>
+    <generator>{{ eleventy.generator }}</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <managingEditor>{{ meta.authorEmail }} ({{ meta.author }})</managingEditor>
+    {% for post in posts | reverse -%}
+    <item>
+      <title><![CDATA[{{ post.data.title }}]]></title>
+      {%- set absolutePostUrl = post.url | absoluteUrl(meta.url) -%}
+      <link>{{ absolutePostUrl }}</link>
+      <guid>{{ absolutePostUrl }}</guid>
+      {%- if post.data.author %}
+      <author>{{ post.data.authorEmail }} ({{ post.data.author }})</author>
+      {%- else %}
+      <author>{{ meta.authorEmail }} ({{ meta.author }})</author>
+      {%- endif %}
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <description><![CDATA[{{ post.data.description }}]]></description>
+      {%- for category in post.data.tags | array %}
+      <category><![CDATA[{{ category }}]]></category>
+      {%- endfor %}
+      <content:encoded><![CDATA[
+      {%- if post.data.cw -%}
+        <p><strong>{{ post.data.cw }}</strong></p>
+      {%- endif -%}
+      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+      ]]></content:encoded>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 {
   "name": "hhtml",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Hamburg HTML meetup website",
   "scripts": {
     "start": "npm run dev -s",
@@ -10,6 +10,14 @@
   "keywords": [],
   "author": "Lea Rosema",
   "license": "MIT",
+  "browserslist": [
+    "last 2 version",
+    "not dead"
+  ],
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.0",

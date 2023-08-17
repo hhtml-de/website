@@ -1,8 +1,8 @@
 footer {
   margin-top: 5rem;
   padding: 2rem 1rem;
-  color: var(--footer-fg-color);
-  background: var(--footer-bg-color);
+  color: var(--footer-fg);
+  background: var(--footer-bg);
 }
 
 footer p {
