@@ -2,14 +2,15 @@
 layout: base.njk
 title: Frequently asked questions
 description: Frequently asked questions about the Hamburg HTML meetup.
+eleventyExcludeFromCollections: true
 ---
 ## What does "HHTML" mean?
 
-"HHTML" is the abbreviation for "Hamburg HTML meetup". Also, "HH" is the abbreviation for "Hansestadt Hamburg".
+"HHTML" is the abbreviation for "Hamburg HTML". Also, "HH" is the abbreviation for "Hansestadt Hamburg".
 
 ## Where will the meetup take place?
 
-This differs from meetup to meetup. :)
+This differs from meetup to meetup. Check the appropriate meetup description. The majority of meetups will be remote, but we also try to have in-person meetups from time to time.
 
 ## In what language will the meetup be?
 

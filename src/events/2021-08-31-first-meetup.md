@@ -1,6 +1,7 @@
 ---
 title: First Meetup
-date: 2022-08-31
+date: 2021-08-31
+type: remote
 ---
 This was the very first HHTML meetup and (sadly) officially my last day at SinnerSchrader, back then.
 

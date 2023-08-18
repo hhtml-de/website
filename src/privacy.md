@@ -3,6 +3,7 @@ title: Privacy policy
 description: Privacy policy for hhtml.de
 layout: base.njk
 author: Lea Rosema
+eleventyExcludeFromCollections: true
 ---
 
 At HHTML, accessible from [https://hhtml.de/](https://hhtml.de/), one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by HHTML and how we use it.
