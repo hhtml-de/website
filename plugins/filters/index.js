@@ -6,6 +6,8 @@ const minify = require('./minify');
 const where = require('./where');
 const splitLines = require('./splitlines');
 const slugify = require('./slugify');
+const upcoming = require('./upcoming');
+const past = require('./past');
 
 const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('array', array);
@@ -20,6 +22,8 @@ const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
   eleventyConfig.addFilter('json', JSON.stringify);
+  eleventyConfig.addFilter('upcoming', upcoming);
+  eleventyConfig.addFilter('past', past);
 };
 
 module.exports = {
