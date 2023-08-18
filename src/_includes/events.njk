@@ -1,6 +1,6 @@
 <ul role="list" class="auto-grid" style="--min: 30ch">
   {%- for event in events -%}
-    <li class="card">
+    <li class="card block-link">
       <article class="flow">
         <h3><a href="{{ event.url }}">{{ event.data.title }}</a></h3>
         <time datetime="{{ event.data.date | isoDate }}">{{ event.data.date | formatDate('DD.MM.YYYY') }}</time>
