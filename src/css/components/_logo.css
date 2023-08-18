@@ -1,7 +1,7 @@
 .logo {
   display: block;
-  color: inherit;
-  width: max(50vmin, 300px);
+  color: var(--logo-stroke);
+  width: min(100%, 300px);
   filter: drop-shadow(0 0 8px #fff);
 }
 

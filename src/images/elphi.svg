@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="776" height="570" fill="none">
+  <style>
+    .c1 {fill: #777;}
+    .c2 {fill: #000;}
+    @media (prefers-color-scheme: dark) {
+      .c2 {fill: #fff;}
+    }
+  </style>
+  <path class="c1" fill-opacity="0.5" stroke="#000" d="M202 3C138.361 67.687 94.433 73.533.5 26.5V571H202V3Z"/>
+  <path class="c2" fill-opacity="0.5" stroke="#000" d="M366.5 39.5c-71.243 22.482-106.161 8.3-164.5-38v569h573.5v-387C675.154 226.927 633.152 208.137 571 136c-120.056 32.931-156.585-2.686-204.5-96.5Z"/>
+</svg>

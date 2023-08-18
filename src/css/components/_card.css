@@ -3,4 +3,5 @@
   background: var(--card-bg, #000);
   color: var(--card-fg, #fff);
   border-radius: 1rem;
+  box-shadow: 4px 4px 10px 0 #0007;
 }

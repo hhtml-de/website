@@ -11,9 +11,7 @@ module.exports = (eleventyConfig) => {
 
   // passthrough copy
   
-  eleventyConfig.addPassthroughCopy('./src/svg/');
-  eleventyConfig.addPassthroughCopy('./src/assets/images/');
-  eleventyConfig.addPassthroughCopy('./src/assets/fonts/');
+  eleventyConfig.addPassthroughCopy('./src/images/');
 
   // social icons to root directory
   eleventyConfig.addPassthroughCopy({

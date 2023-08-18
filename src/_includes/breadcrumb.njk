@@ -1,0 +1,15 @@
+<nav class="breadcrumb">
+  <ul>
+    {% set homeLink = nav[meta.lang].header[0] %}
+    <li><a href="{{ meta.url }}{{ homeLink.href }}">
+      {% include "house.svg" %}
+      <span>Home</span>
+      </a>
+    </li>
+    {% if page.url != "/" %}
+    <li><a href="{{ site.url }}{{ page.url }}">
+      <span>{{ title }}</span></a>
+    </li>
+    {% endif %}
+  <ul>
+</nav>

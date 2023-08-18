@@ -10,8 +10,8 @@ button {
 button,
 .button {
   font-size: 1.25rem;
-  background: var(--nav-bg);
-  color: var(--nav-fg);
+  background: var(--button-bg);
+  color: var(--button-fg);
   text-decoration: none;
   padding: 1rem 2rem; 
   border-radius: .5rem;
@@ -20,21 +20,21 @@ button,
 
 button:active,
 .button:active {
-  background: var(--nav-bg-active-color);
+  background: var(--button-bg--active);
 }
 
 button:focus,
 .button:focus {
-  background: var(--nav-bg-focus-color);
+  background: var(--button-bg--focus);
 }
 
 button:hover,
 .button:hover {
-  background: var(--nav-bg-hover-color);
+  background: var(--button-bg--hover-color);
 }
 
 a.button[aria-current="page"] {
-  background: var(--nav-bg-current-color);
-  color: var(--nav-fg-current-color);
+  background: var(--button-bg--current);
+  color: var(--button-fg--current);
   text-decoration: underline;
 }
