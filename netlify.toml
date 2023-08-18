@@ -1,8 +1,14 @@
 [build]
-  command = "npm run production"
-  publish = "public"
+  command = "npm run build"
+  publish = "dist"
 
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Permissions-Policy = "interest-cohort=()"
+    for = "/*"
+    [headers.values]
+    Content-Security-Policy = "upgrade-insecure-requests; block-all-mixed-content;"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "interest-cohort=(), autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
