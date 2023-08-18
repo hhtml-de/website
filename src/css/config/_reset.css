@@ -50,8 +50,7 @@ body {
   text-rendering: optimizeSpeed;
   /* Allow percentage-based heights in the application */
   min-block-size: 100%;
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter#example_2 */
-  /* scrollbar-gutter: stable both-edges; Removed until this bug is fixed: https://bugs.chromium.org/p/chromium/issues/detail?id=1318404#c2 */
+  scrollbar-gutter: stable;
 }
 
 /* Improve media defaults */
@@ -114,6 +113,10 @@ input[type="file"] {
 input[type="file"]::-webkit-file-upload-button,
 input[type="file"]::file-selector-button {
   cursor: pointer;
+}
+
+article :where(ul:not([class])) {
+  padding-inline-start: 20px;
 }
 
 /* Animate focus outline */

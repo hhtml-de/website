@@ -5,6 +5,10 @@
       "href": "/"
     },
     {
+      "text": "RSS",
+      "href": "/rss.xml"
+    },
+    {
       "text": "Contact",
       "href": "/contact/"
     },

@@ -22,23 +22,30 @@
   --zimt-4: #ac5c00;
   --zimt-5: #633300;
   --zimt-6: #371d00;
-
+/*
   --sky-1: #e3f7ff;
   --sky-2: #aee9ff;
   --sky-3: #0094b4;
   --sky-4: #007590;
   --sky-5: #00404f;
   --sky-6: #001f28;
+*/
+  --sky-1: #e8f2ff;
+  --sky-2: #c6e0ff;
+  --sky-3: #008fdb;
+  --sky-4: #0071af;
+  --sky-5: #003b5e;
+  --sky-6: #001c30;
 
-  --header-bg: #324;
+  --header-bg: var(--sky-6);
   --footer-bg: #000;
-  --nav-bg: #000;
-  --nav-fg: #fff;
-  --nav-bg-hover-color: #423;
-  --nav-bg-active-color: #312;
-  --nav-bg-focus-color: #423;
-  --nav-bg-current-color: #c15;
-  --nav-fg-current-color: #fff;
+  --button-bg: #000;
+  --button-fg: #fff;
+  --button-bg--hover-color: var(--rose-5);
+  --button-bg--active: var(--rose-6);
+  --button-bg--focus: var(--rose-5);
+  --button-bg--current: var(--rose-4);
+  --button-fg--current: #fff;
   --bg: var(--gray-6);
   --fg: #fff;
   --link-color: var(--sky-2);
@@ -52,8 +59,7 @@
   --headline-fg-2: var(--rose-2);
   --subtitle-fg: #ccc;
   --header-fg: #fff;
-  --header-bg: var(--rose-6);
-  --header-waves: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 150'%3E%3Cg fill='%234c0023'%3E%3Cpath d='M0 0 v50 s100 30 200 0 s100 -30 200 0 v-50z'/%3E%3C/g%3E%3C/svg%3E");
+  
   --footer-bg: #000;
   --footer-fg: #eee;
   --footer-current-link-color: #f7b;
@@ -72,15 +78,22 @@
     --footer-bg: #eee;
     --footer-fg: #111111;
     --link-color: #26f;
-    --headline-fg: #867;
-    --headline-fg-2: #806070;
+    --headline-fg: var(--zimt-5);
+    --headline-fg-2: var(--rose-5);
     --subtitle-fg: #f37;
     --header-fg: #777;
-    --header-bg: #fae;
-    --nav-bg-hover-color: #867;
-    --nav-bg-hover-color: #978;
-    --nav-bg-active-color: #654;
+    --header-bg: var(--sky-2);
+
+    --button-bg: #fff;
+    --button-fg: #000;
+    --button-bg--hover-color: var(--rose-2);
+    --button-bg--active: var(--rose-3);
+    --button-bg--focus: var(--rose-2);
+    --button-bg--current: var(--rose-5);
+    --button-fg--current: #fff;
+
     --footer-current-link-color: #f15;
-    --header-waves: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 150'%3E%3Cg fill='%23fae'%3E%3Cpath d='M0 0 v50 s100 30 200 0 s100 -30 200 0 v-50z'/%3E%3C/g%3E%3C/svg%3E");  
+    --logo-stroke: #000;
+    --logo-stroke-hh: #f37;
   }
 }

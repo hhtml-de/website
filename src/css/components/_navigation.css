@@ -1,11 +1,16 @@
 
 /* navigation */
 
+.topnav {
+  margin-block-start: -2.5rem;
+  z-index: 10;
+}
+
 nav > ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 1rem 0;
+  margin: 0;
   padding: 1rem;
 }
 
