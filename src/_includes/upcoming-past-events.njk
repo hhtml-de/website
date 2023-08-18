@@ -1,0 +1,16 @@
+
+{%- if upcomingEvents.length > 0 -%}
+
+<h2>Upcoming Events</h2>
+
+{%- set events = upcomingEvents -%}
+{% include "events.njk" %}
+{%- endif -%}
+
+{%- if pastEvents.length > 0 -%}
+
+<h2>Past Events</h2>
+
+{%- set events = pastEvents -%}
+{% include "events.njk" %}
+{%- endif -%}

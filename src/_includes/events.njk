@@ -1,5 +1,5 @@
-<ul role="list" class="auto-grid" style="--min: 60ch">
-  {%- for event in collections.events | reverse | limit(5) -%}
+<ul role="list" class="auto-grid" style="--min: 30ch">
+  {%- for event in events -%}
     <li class="card">
       <article class="flow">
         <h3><a href="{{ event.url }}">{{ event.data.title }}</a></h3>
