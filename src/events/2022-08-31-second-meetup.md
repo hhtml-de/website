@@ -1,6 +1,10 @@
 ---
 layout: base.njk
-title: HHTML 2022, somewhere in August
+title: Meetup in 2022
+date: 2022-31-08
+tags:
+  - events
+  - remote
 ---
 There was a meetup in 2022, but apparently I have lost the recordings.
 

@@ -3,7 +3,7 @@
     <li class="card">
       <article class="flow">
         <h3><a href="{{ event.url }}">{{ event.data.title }}</a></h3>
-        <time datetime="{{ event.data.date | isoDate }}">{{ date | formatDate('DD.MM.YYYY') }}</time>
+        <time datetime="{{ event.data.date | isoDate }}">{{ event.data.date | formatDate('DD.MM.YYYY') }}</time>
       </article>
     </li>
   {%- endfor -%}
