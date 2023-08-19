@@ -1,12 +1,12 @@
-<svg width="1200" height="628" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="628" fill="#003b5e"/>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#003b5e"/>
 
   <g transform="translate(10 300)">
     <path fill-opacity="0.5" fill="#000" stroke="#000" d="M202 3C138.361 67.687 94.433 73.533.5 26.5V571H202V3Z"/>
     <path fill-opacity="0.5" fill="#fff" stroke="#000" d="M366.5 39.5c-71.243 22.482-106.161 8.3-164.5-38v569h573.5v-387C675.154 226.927 633.152 208.137 571 136c-120.056 32.931-156.585-2.686-204.5-96.5Z"/>
   </g>
 
-  <g transform="translate(256 256) scale(2)">
+  <g transform="translate(256 256) scale(2.4)">
   <g transform-origin="center" transform="translate(-95 -45)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5">
     <path fill="#f37" stroke="#fff" d="M10 10 h10 v10 h10 v-10 h10 v30 h-10 v-10 h-10 v10 h-10z" />
     <path fill="#f37" stroke="#fff" d="M50 10 h10 v10 h10 v-10 h10 v30 h-10 v-10 h-10 v10 h-10z" />
