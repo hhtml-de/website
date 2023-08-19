@@ -2,7 +2,7 @@
   <ul>
   {% for item in navigation.items %}
     <li>
-      <a class="button" href="{{ site.url }}{{ item.href }}" {{ helpers.getLinkActiveState(item.href, page.url) | safe }}>{{ item.text }}</a>
+      <a class="button" href="{{ meta.url }}{{ item.href }}" {{ helpers.getLinkActiveState(item.href, page.url) | safe }}>{{ item.text }}</a>
     </li>
   {% endfor %}
   </ul>
