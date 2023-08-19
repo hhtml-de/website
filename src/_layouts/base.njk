@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
-  <meta name="description" content="{{ description }}">
-  <title>
-    {{ title }} | {{ meta.siteName }}
-  </title>
-  <link rel="stylesheet" href="{{ meta.url }}/css/styles.css">
+  {% include "meta.njk" %}
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   {% include 'skip-link.njk' %}
@@ -17,7 +10,7 @@
   {% include 'navigation.njk' %}
   <main id="main-content" tabindex="-1">
     <article class="flow">
-      <h1>{{ title}}</h1>
+      <h1>{{ title }}</h1>
       {{ content | safe }}
     </article>
   </main>
