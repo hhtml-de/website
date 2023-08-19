@@ -13,7 +13,7 @@ Talks scheduled so far:
 
 For the meetup organization, we are currently evaluating [Mobilizon](https://mobilizon.org/en/), which is an open source and federated alternative to [meetup.com](https://meetup.com).
 
-We and launched [https://mobilize.hamburg], an instance for Hamburg events. A little meta site with all rules and imprint and stuff is in the works. Our [Code of Conduct](https://hhtml.de/code-of-conduct/) applies.
+We and launched [https://mobilize.hamburg](https://mobilize.hamburg), an instance for Hamburg events. A little meta site with all rules and imprint and stuff is in the works. Our [Code of Conduct](https://hhtml.de/code-of-conduct/) applies.
 
 You don't need an account for signing up to this event. Also, if you have another Mobilizon account on another instance, you can join with that account.
 
