@@ -12,7 +12,7 @@ module.exports = {
   themeBgColor: '#FFFFFF',
   dateFormat: 'DD.MM.YYYY',
   meta_data: {
-    opengraph_default: '/assets/images/social-preview/default.jpeg',
+    opengraph_default: '/images/og/opengraph-default.jpeg',
     opengraph_default_alt: "Hamburg HTML Meet-Up",
     mastodonProfile: 'https://lea.lgbt/@lea',
   },
