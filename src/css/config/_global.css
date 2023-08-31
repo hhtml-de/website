@@ -25,9 +25,8 @@ main > article {
   margin: 0 auto;
 }
 
-a:focus {
+:where(a:focus) {
   position: relative;
-  z-index: 100;
-  outline: 4px solid var(--focus-outline);
-  outline-offset: 5px;
+  z-index: 10;
+  outline: max(2px,.2em) solid var(--focus-outline);
 }

@@ -43,9 +43,12 @@
   --button-bg: var(--gray-5);
 
   --button-fg: #fff;
-  --button-bg--hover-color: var(--rose-5);
-  --button-bg--active: var(--rose-6);
+  --button-bg--hover: var(--rose-5);
+  --button-fg--hover: #fff;
+  --button-bg--active: #000;
+  --button-fg--active: #fff;
   --button-bg--focus: var(--rose-5);
+  --button-fg--focus: #fff;
   --button-bg--current: var(--rose-4);
   --button-fg--current: #fff;
   --bg: var(--gray-6);
@@ -55,7 +58,7 @@
   --link-hover-color: #fff;
   --logo-stroke: #fff;
   --logo-stroke-hh: var(--rose-2);
-  --focus-outline: #f37;
+  --focus-outline: var(--rose-2);
   
   --headline-fg: var(--zimt-2);
   --headline-fg-2: var(--rose-2);
@@ -92,14 +95,19 @@
 
     --button-bg: #fff;
     --button-fg: #000;
-    --button-bg--hover-color: var(--rose-1);
-    --button-bg--active: var(--rose-3);
-    --button-bg--focus: var(--rose-2);
+    --button-bg--hover: var(--rose-1);
+    --button-fg--hover: #fff;
+    --button-bg--active: #000;
+    --button-fg--active: #fff;
+    --button-bg--focus: var(--rose-1);
+    --button-fg--focus: #000;
     --button-bg--current: var(--rose-5);
     --button-fg--current: #fff;
 
     --footer-current-link-color: #f15;
     --logo-stroke: #fff;
     --logo-stroke-hh: var(--rose-2);
+
+    --focus-outline: #f37;
   }
 }

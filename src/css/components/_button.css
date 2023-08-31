@@ -19,19 +19,23 @@ button,
   box-shadow: inset 0 .3em 0 0 #fff1, 0 0 20px #0001;
 }
 
-button:active,
-.button:active {
-  background: var(--button-bg--active);
-}
 
 button:focus,
 .button:focus {
   background: var(--button-bg--focus);
+  color: var(--button-fg--focus, inherit);
 }
 
 button:hover,
 .button:hover {
-  background: var(--button-bg--hover-color);
+  background: var(--button-bg--hover);
+  color: var(--button-fg--hover);
+}
+
+button:active,
+.button:active {
+  background: var(--button-bg--active);
+  color: var(--button-fg--active, inherit);
 }
 
 a.button[aria-current="page"] {
