@@ -1,6 +1,6 @@
 ---
 title: First Meetup
-date: 2021-08-31
+eventDate: 2021-08-31
 type: remote
 description: The first remote meetup in 2021
 ---

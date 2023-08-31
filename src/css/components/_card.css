@@ -1,5 +1,5 @@
 .card {
-  --inline-padding: .5rem;
+  --inline-padding: 1rem;
   padding-inline: var(--inline-padding);
   padding-block-end: 1rem;
   background: var(--card-bg, #000);
@@ -11,6 +11,7 @@
     border-radius: .25rem .25rem 0 0;
     margin-inline: calc(-1 * var(--inline-padding));
     padding-inline: var(--inline-padding);
+    padding-block: .25rem;
     margin-block-end: 1rem;
     background: var(--card-header-bg, #666);
     color: var(--card-header-fg, #fff);

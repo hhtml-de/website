@@ -21,15 +21,11 @@ button,
 
 
 button:focus,
-.button:focus {
-  background: var(--button-bg--focus);
-  color: var(--button-fg--focus, inherit);
-}
-
+.button:focus,
 button:hover,
 .button:hover {
-  background: var(--button-bg--hover);
-  color: var(--button-fg--hover);
+  background: var(--button-bg--focus);
+  color: var(--button-fg--focus, inherit);
 }
 
 button:active,

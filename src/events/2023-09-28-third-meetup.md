@@ -1,7 +1,8 @@
 ---
-title: Third Meetup
-date: 2023-09-28
-description: The third meetup is happening in person at Factorial GmbH
+title: Third Meetup in 2023, in-person
+eventDate: 2023-09-28
+eventTime: 6pm CEST
+description: We're excited to invite you to our upcoming Hamburg HTML Meetup, happening in-person at Factorial GmbH
 type: in-person
 ---
 

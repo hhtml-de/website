@@ -5,7 +5,10 @@
         <div class="card__header">
           <h3><a href="{{ event.url }}">{{ event.data.title }}</a></h3>
         </div>
-        <time datetime="{{ event.data.date | isoDate }}">{{ event.data.date | formatDate('DD.MM.YYYY') }}</time>
+        <time datetime="{{ event.data.eventDate | isoDate }}">
+          {{ event.data.eventDate | formatDate('DD.MM.YYYY') }}
+          {% if event.data.eventTime %}&mdash; {{ event.data.eventTime }}{% endif %}
+        </time>
         {% if event.data.description %}<p>{{ event.data.description }}</p>{% endif %}
       </article>
     </li>

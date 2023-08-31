@@ -27,6 +27,7 @@ footer nav li + li {
 }
 
 footer a {
+  color: var(--footer-link, inherit);
   text-decoration: none;
 }
 

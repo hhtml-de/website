@@ -43,8 +43,6 @@
   --button-bg: var(--gray-5);
 
   --button-fg: #fff;
-  --button-bg--hover: var(--rose-5);
-  --button-fg--hover: #fff;
   --button-bg--active: #000;
   --button-fg--active: #fff;
   --button-bg--focus: var(--rose-5);
@@ -67,8 +65,9 @@
   
   --footer-bg: #000;
   --footer-fg: #eee;
+  --footer-link: var(--sky-2);
   --footer-current-link-color: #f7b;
-  --card-bg: #000;
+  --card-bg: var(--rose-5);
   --card-fg: #fff;
   --card-header-bg: var(--rose-4);
   --card-header-fg: #fff;
@@ -81,12 +80,13 @@
     --fg: #111;
     --bg: #f4f4f4;
     --card-bg: #fff;
-    --card-fg: #000;
+    --card-fg: var(--rose-5);
     --card-header-bg: var(--rose-2);
     --card-header-fg: var(--rose-6);
-    --footer-bg: #eee;
-    --footer-fg: #111111;
+    --footer-bg: #000;
+    --footer-fg: #fff;
     --link-color: #26f;
+    
     --headline-fg: var(--zimt-5);
     --headline-fg-2: var(--rose-5);
     --subtitle-fg: #f37;
@@ -95,8 +95,6 @@
 
     --button-bg: #fff;
     --button-fg: #000;
-    --button-bg--hover: var(--rose-1);
-    --button-fg--hover: #fff;
     --button-bg--active: #000;
     --button-fg--active: #fff;
     --button-bg--focus: var(--rose-1);
@@ -104,10 +102,17 @@
     --button-bg--current: var(--rose-5);
     --button-fg--current: #fff;
 
-    --footer-current-link-color: #f15;
+    --footer-current-link-color: #f7b;
     --logo-stroke: #fff;
     --logo-stroke-hh: var(--rose-2);
 
     --focus-outline: #f37;
+  }
+}
+
+@media print {
+  :root {
+    --logo-stroke: var(--gray-2);
+    --logo-stroke-hh: var(--rose-3);
   }
 }
