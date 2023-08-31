@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: Meetup in 2022
+description: The second remote meetup in 2022
 date: 2022-08-31
 tags:
   - events

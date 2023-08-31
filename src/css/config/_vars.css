@@ -10,7 +10,7 @@
   --rose-6: #4c0023;
   
   --gray-1: #f6f6f6;
-  --gray-2: #231e1e;
+  --gray-2: #e2e2e2;
   --gray-3: #8b8b8b;
   --gray-4: #6f6f6f;
   --gray-5: #3e3e3e;
@@ -37,10 +37,11 @@
   --sky-5: #003b5e;
   --sky-6: #001c30;
 
-  --header-bg: var(--sky-3);
-  --header-fg: #222;
+  --header-bg: var(--sky-5);
+  --header-fg: #fff;
   --footer-bg: #000;
-  --button-bg: #000;
+  --button-bg: var(--gray-5);
+
   --button-fg: #fff;
   --button-bg--hover-color: var(--rose-5);
   --button-bg--active: var(--rose-6);
@@ -53,7 +54,7 @@
   --link-visit-color: var(--rose-2);
   --link-hover-color: #fff;
   --logo-stroke: #fff;
-  --logo-stroke-hh: #f37;
+  --logo-stroke-hh: var(--rose-2);
   --focus-outline: #f37;
   
   --headline-fg: var(--zimt-2);
@@ -66,6 +67,8 @@
   --footer-current-link-color: #f7b;
   --card-bg: #000;
   --card-fg: #fff;
+  --card-header-bg: var(--rose-4);
+  --card-header-fg: #fff;
 }
 
 /* light theme */
@@ -76,16 +79,18 @@
     --bg: #f4f4f4;
     --card-bg: #fff;
     --card-fg: #000;
+    --card-header-bg: var(--rose-2);
+    --card-header-fg: var(--rose-6);
     --footer-bg: #eee;
     --footer-fg: #111111;
     --link-color: #26f;
     --headline-fg: var(--zimt-5);
     --headline-fg-2: var(--rose-5);
     --subtitle-fg: #f37;
-    --header-fg: #222;
-    --header-bg: var(--sky-2);
+    --header-fg: #fff;
+    --header-bg: var(--sky-5);
 
-    --button-bg: #fff;
+    --button-bg: var(--rose-1);
     --button-fg: #000;
     --button-bg--hover-color: var(--rose-2);
     --button-bg--active: var(--rose-3);
@@ -94,7 +99,7 @@
     --button-fg--current: #fff;
 
     --footer-current-link-color: #f15;
-    --logo-stroke: #000;
-    --logo-stroke-hh: #f37;
+    --logo-stroke: #fff;
+    --logo-stroke-hh: var(--rose-2);
   }
 }

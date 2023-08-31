@@ -1,7 +1,26 @@
 .card {
-  padding: 1rem;
+  --inline-padding: .5rem;
+  padding-inline: var(--inline-padding);
+  padding-block-end: 1rem;
   background: var(--card-bg, #000);
   color: var(--card-fg, #fff);
-  border-radius: 1rem;
-  box-shadow: 4px 4px 10px 0 #0007;
+  border-radius: .25rem;
+  box-shadow: 4px 4px 10px 0 #0002;
+
+  & .card__header {
+    border-radius: .25rem .25rem 0 0;
+
+    overflow: hidden;
+    margin-inline: calc(-1 * var(--inline-padding));
+    padding-inline: var(--inline-padding);
+    margin-block-end: 1rem;
+    background: var(--card-header-bg, #666);
+    color: var(--card-header-fg, #fff);
+    line-height: 1.0;
+
+    & a {
+      color: var(--card-header-fg, #fff);
+    }
+  }
 }
+

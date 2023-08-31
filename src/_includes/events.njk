@@ -2,9 +2,11 @@
   {%- for event in events -%}
     <li class="card block-link">
       <article class="flow">
-        <h3><a href="{{ event.url }}">{{ event.data.title }}</a></h3>
+        <div class="card__header">
+          <h3><a href="{{ event.url }}">{{ event.data.title }}</a></h3>
+        </div>
         <time datetime="{{ event.data.date | isoDate }}">{{ event.data.date | formatDate('DD.MM.YYYY') }}</time>
-        
+        {% if event.data.description %}<p>{{ event.data.description }}</p>{% endif %}
       </article>
     </li>
   {%- endfor -%}

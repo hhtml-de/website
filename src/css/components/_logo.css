@@ -2,7 +2,7 @@
   display: block;
   color: var(--logo-stroke);
   width: min(100%, 300px);
-  filter: drop-shadow(0 0 8px #fff);
+  filter: drop-shadow(0 0 8px #fff6);
 }
 
 .logo svg {

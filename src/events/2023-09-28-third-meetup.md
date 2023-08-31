@@ -1,6 +1,7 @@
 ---
 title: Third Meetup
 date: 2023-09-28
+description: The third meetup is happening in person at Factorial GmbH
 type: in-person
 ---
 
@@ -9,6 +10,7 @@ The third meetup will be the first ever time we will meet in-person. It is going
 Talks scheduled so far:
 
 - Manuel Matuzovic: Web Accessibility and Web Components
+- Vadim Makeev: The road to HTMHell is paved with semantics
 - We are looking for talks. Our [Call For Proposals](https://hhtml.de/call-for-proposals/) is officially open.
 
 For the meetup organization, we are currently evaluating [Mobilizon](https://mobilizon.org/en/), which is an open source and federated alternative to [meetup.com](https://meetup.com).
