@@ -90,9 +90,9 @@
     --header-fg: #fff;
     --header-bg: var(--sky-5);
 
-    --button-bg: var(--rose-1);
+    --button-bg: #fff;
     --button-fg: #000;
-    --button-bg--hover-color: var(--rose-2);
+    --button-bg--hover-color: var(--rose-1);
     --button-bg--active: var(--rose-3);
     --button-bg--focus: var(--rose-2);
     --button-bg--current: var(--rose-5);

@@ -26,6 +26,8 @@ main > article {
 }
 
 a:focus {
-  outline: .125rem solid var(--focus-outline);
-  outline-offset: .25rem;
+  position: relative;
+  z-index: 100;
+  outline: 4px solid var(--focus-outline);
+  outline-offset: 5px;
 }
