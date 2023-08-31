@@ -1,5 +1,5 @@
 <svg focusable="false" aria-hidden="true" viewBox="5 5 190 40">
-  <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5">
+  <g fill="currentColor" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5">
     <path class="logo__hh" d="M10 10 h10 v10 h10 v-10 h10 v30 h-10 v-10 h-10 v10 h-10z" />
     <path class="logo__hh" d="M50 10 h10 v10 h10 v-10 h10 v30 h-10 v-10 h-10 v10 h-10z" />
     <path d="M90 10 h30 v10 h-10 v20 h-10 v-20 h-10z"/>

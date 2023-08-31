@@ -37,7 +37,8 @@
   --sky-5: #003b5e;
   --sky-6: #001c30;
 
-  --header-bg: var(--sky-6);
+  --header-bg: var(--sky-3);
+  --header-fg: #222;
   --footer-bg: #000;
   --button-bg: #000;
   --button-fg: #fff;
@@ -81,7 +82,7 @@
     --headline-fg: var(--zimt-5);
     --headline-fg-2: var(--rose-5);
     --subtitle-fg: #f37;
-    --header-fg: #777;
+    --header-fg: #222;
     --header-bg: var(--sky-2);
 
     --button-bg: #fff;
