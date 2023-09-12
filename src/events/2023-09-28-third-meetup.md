@@ -12,7 +12,7 @@ Talks scheduled so far:
 
 - [Manuel Matuzovic](https://front-end.social/@matuzo): Web Accessibility and Web Components
 - [Vadim Makeev](https://mastodon.social/@pepelsbey): [The road to HTMHell is paved with semantics](https://github.com/hhtml-de/call-for-proposals/issues/4)
-- [Simon Praetorius (he/him)](https://norden.social/@s2b): [Pragmatic Responsive Images](https://github.com/hhtml-de/call-for-proposals/issues/5)
+- Lightning talk: [Simon Praetorius (he/him)](https://norden.social/@s2b): [Pragmatic Responsive Images](https://github.com/hhtml-de/call-for-proposals/issues/5)
 - [Sara Joy](https://front-end.social/@sarajw): [Talk Proposal: Easy dark mode with color-scheme](https://github.com/hhtml-de/call-for-proposals/issues/6)
 
 For the meetup organization, we are currently evaluating [Mobilizon](https://mobilizon.org/en/), which is an open source and federated alternative to [meetup.com](https://meetup.com).
