@@ -6,7 +6,11 @@ description: We're excited to invite you to our upcoming Hamburg HTML Meetup, ha
 type: in-person
 ---
 
-The third meetup will be the first ever time we will meet in-person. It is going to happen on September 28th, 6pm at Factorial Room F.
+The third meetup will be the first ever time we will meet in-person. 
+
+It is going to happen on <strong>September 28th, 6pm at Factorial Room F.</strong>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.5883610846963!2d9.929917384673267!3d53.54726380802032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f7b415442e7%3A0x5428789ae8f1307f!2sFactorial%20GmbH!5e0!3m2!1sde!2sde!4v1695220762934!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 Talks scheduled so far:
 
