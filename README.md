@@ -7,6 +7,5 @@ The tech stack is eleventy and poscss with gulp.
 
 After running a `npm i`, you can do:
 
-- `npm start` - run a development server
+- `npm start` or `npm run dev` - run a development server
 - `npm run build` - run a build
-- `npm run production` - run a production build
