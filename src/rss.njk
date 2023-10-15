@@ -44,5 +44,33 @@ excludeFromSitemap: true
       ]]></content:encoded>
     </item>
     {%- endfor %}
+    {%- for post in posts | reverse -%}
+      {%- if post.data.changes -%}
+        {% for change in post.data.changes -%}
+        {%- set absolutePostUrl = post.url | absoluteUrl(meta.url) -%}
+    <item>
+      <title><![CDATA[Update: {{ post.data.title }}]]></title>
+      <link>{{ absolutePostUrl }}</link>
+      <guid>{{ absolutePostUrl }}?update={{ change.date | formatDate('YYYY-MM-DD') }}</guid>
+      <pubDate>{{ change.date | dateToRfc822 }}</pubDate>
+      {%- if post.data.author %}
+      <author>{{ post.data.authorEmail }} ({{ post.data.author }})</author>
+      {%- else %}
+      <author>{{ meta.authorEmail }} ({{ meta.author }})</author>
+      {%- endif %}
+      <description>An update notification on "{{ post.data.title }}"</description>
+      <content:encoded><![CDATA[
+        <p>Update notification on "{{ post.data.title}}":</p>
+        <p>{{ change.title }}</p>
+        <p><a href="{{ absolutePostUrl}}">Link to article</a></p>
+      ]]></content:encoded>
+      <category><![CDATA[update]]></category>
+      {%- for category in post.data.tags | array %}
+      <category><![CDATA[{{ category }}]]></category>
+      {%- endfor %}
+    </item>
+        {%- endfor %}
+      {%- endif -%}
+    {%- endfor -%}
   </channel>
 </rss>
