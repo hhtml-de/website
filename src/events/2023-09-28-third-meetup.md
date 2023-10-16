@@ -13,7 +13,7 @@ The third meetup will be the first ever time we will meet in-person.
 
 It is going to happen on <strong>September 28th, 6pm at Factorial Room F.</strong>
 
-<iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=9.928590953350069%2C53.546534386059456%2C9.930742084980013%2C53.54804836197989&amp;layer=mapnik&amp;marker=53.54729138078932%2C9.929666519165039" style="border: 1px solid black"></iframe><small><a href="https://www.openstreetmap.org/?mlat=53.54729&amp;mlon=9.92967#map=19/53.54729/9.92967">View Larger Map</a></small>
+<p><a href="https://www.openstreetmap.org/?mlat=53.54729&mlon=9.92966#map=18/53.54729/9.92966" data-osm-embed-src="https://www.openstreetmap.org/export/embed.html?bbox=9.926635622978212%2C53.54584112637702%2C9.93268668651581%2C53.5487320238824&amp;layer=mapnik&amp;marker=53.54728659981247%2C9.92966115474701" target="_blank" rel="nofollow noindex">View on OpenStreetMap</a></p>
 
 ## Talks scheduled so far
 
