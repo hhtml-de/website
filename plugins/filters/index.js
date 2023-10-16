@@ -8,6 +8,7 @@ const splitLines = require('./splitlines');
 const slugify = require('./slugify');
 const upcoming = require('./upcoming');
 const past = require('./past');
+const decrapify = require('./decrapify');
 
 const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('array', array);
@@ -24,6 +25,7 @@ const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('json', JSON.stringify);
   eleventyConfig.addFilter('upcoming', upcoming);
   eleventyConfig.addFilter('past', past);
+  eleventyConfig.addFilter('decrapify', decrapify);
 };
 
 module.exports = {
