@@ -40,7 +40,7 @@ excludeFromSitemap: true
       {%- if post.data.cw -%}
         <p><strong>{{ post.data.cw }}</strong></p>
       {%- endif -%}
-      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+      {{ post.templateContent | decrapify | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
       ]]></content:encoded>
     </item>
     {%- endfor %}
