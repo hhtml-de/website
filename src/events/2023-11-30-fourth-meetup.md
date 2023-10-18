@@ -1,5 +1,5 @@
 ---
-title: The HHTML fourth meetup, in-person
+title: The fourth HHTML meetup, in-person
 eventDate: 2023-11-30
 description: We're excited to announce another in-person edition of our HHTML meet-up, with lovely support from Whiskey Tango Foxtrot GmbH in Hamburg-Bahrenfeld.
 ---
