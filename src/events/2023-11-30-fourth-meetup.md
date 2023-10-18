@@ -6,7 +6,7 @@ description: We're excited to announce another in-person edition of our HHTML me
 type: in-person
 changes:
   - date: 2023-10-18
-  - title: Added time and location
+    title: Added time and location
 ---
 This is yet another edition of our HHTML meetup where we will meet in-person on <strong>November 30th at 6pm CET</strong>.
 
