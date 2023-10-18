@@ -67,10 +67,10 @@
   --footer-fg: #eee;
   --footer-link: var(--sky-2);
   --footer-current-link-color: #f7b;
-  --card-bg: var(--rose-5);
+  --card-bg: var(--gray-5);
   --card-fg: #fff;
-  --card-header-bg: var(--rose-4);
-  --card-header-fg: #fff;
+  --card-header-bg: var(--gray-5);
+  --card-header-fg: var(--zimt-2);
 }
 
 /* light theme */
@@ -107,6 +107,10 @@
     --logo-stroke-hh: var(--rose-2);
 
     --focus-outline: #f37;
+    --card-bg: var(--gray-1);
+    --card-fg: var(--gray-6);
+    --card-header-bg: var(--gray-1);
+    --card-header-fg: var(--zimt-5);
   }
 }
 
