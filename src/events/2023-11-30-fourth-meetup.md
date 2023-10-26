@@ -7,6 +7,8 @@ type: in-person
 changes:
   - date: 2023-10-18
     title: Added time and location
+  - date: 2023-10-26
+    title: Added Sign-Up link
 ---
 This is yet another edition of our HHTML meetup where we will meet in-person on <strong>November 30th at 6pm CET</strong>.
 
@@ -32,4 +34,4 @@ We are looking for talks. Our [Call For Proposals](https://hhtml.de/call-for-pro
 
 ## Sign-Up Link
 
-Sign-Up Link coming soon.
+Sign Up on [meetup.com](https://www.meetup.com/hhhtml/events/296969651/).
