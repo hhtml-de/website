@@ -1,6 +1,8 @@
-const { parseHTML } = require('linkedom')
+import { parseHTML } from 'linkedom';
 
-module.exports = (content) => {
+// not really a decrapify but rather
+// removes all embedded content from a document so it can be safely put inside the RSS feed.
+export default (content) => {
   const { document } = parseHTML(`<html><body>${content}</body></html>`);
   const tags = document.querySelectorAll('*');
   for (const tag of tags) {

@@ -1,6 +1,6 @@
-const dayjs = require('dayjs');
+import dayjs from 'dayjs';
 
-module.exports = (events) => {
+export default (events) => {
   return events.filter(event => {
     if (!event || !event.data) {
       return false;

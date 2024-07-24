@@ -1,4 +1,4 @@
-module.exports = (input) => {
+export default (input) => {
   if (!input) {
     return [];
   }

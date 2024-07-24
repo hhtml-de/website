@@ -1,10 +1,10 @@
 // https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/
 // concerts SVG to JPEG for open graph images
 
-const fs = require('fs');
-const Image = require('@11ty/eleventy-img');
+import fs from 'fs';
+import Image from '@11ty/eleventy-img';
 
-module.exports = function () {
+export default function () {
   const socialPreviewImagesDir = 'dist/images/og/';
   fs.readdir(socialPreviewImagesDir, (err, files) => {
     if (!!files && files.length > 0) {

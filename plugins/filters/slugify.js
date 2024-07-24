@@ -1,7 +1,7 @@
-const slugify = require('slugify');
+import slugify from 'slugify';
 
 /** Converts string to a slug form. */
-module.exports = (str) => {
+export default (str) => {
   return slugify(str, {
     replacement: '-',
     remove: /[#,&,+()$~%.'":*?<>{}]/g,

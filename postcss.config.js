@@ -1,8 +1,8 @@
-const postcssImport = require('postcss-import');
-const autoprefixer = require('autoprefixer');
-const postcssCssVars = require('postcss-css-variables');
+import postcssImport from 'postcss-import';
+import autoprefixer from 'autoprefixer';
+import postcssCssVars from 'postcss-css-variables';
 
-module.exports = {
+export default {
   plugins: [
     postcssImport({root: __dirname}),
     postcssCssVars(),

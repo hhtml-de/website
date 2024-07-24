@@ -1,5 +1,6 @@
-const vanillaH = require('vanillah');
-const htm = require('htm');
+import vanillaH from 'vanillah';
+import htm from 'htm';
+
 const slugify = text => text.trim().toLowerCase().replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s/g, '-');
 
 function getHeadingId(heading) {
@@ -9,7 +10,7 @@ function getHeadingId(heading) {
 
 // Code for adding id's to headlines is by Vadim Makeev github.com/pepelsbey/pepelsbey.dev
 // heading wrapper idea is from https://11ty.rocks by Stephanie Eckles.
-module.exports = function ({document}) {
+export default function ({document}) {
 
   const h = vanillaH(document);
   const html = htm.bind(h);

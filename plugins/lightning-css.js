@@ -1,13 +1,13 @@
 // kudos to Stephanie Eckles: https://11ty.rocks/posts/process-css-with-lightningcss/
-const path = require('path');
-const browserslist = require('browserslist');
-const {
+import path from 'path';
+import browserslist from 'browserslist';
+import {
   bundle,
   browserslistToTargets,
   composeVisitors,
-} = require('lightningcss');
+} from 'lightningcss';
 
-module.exports = (eleventyConfig) => {
+export default (eleventyConfig) => {
   eleventyConfig.addTemplateFormats('css');
 
   // Process CSS with LightningCSS
