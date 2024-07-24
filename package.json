@@ -1,7 +1,8 @@
 {
   "name": "hhtml",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Hamburg HTML meetup website",
+  "type": "module",
   "scripts": {
     "start": "npm run dev -s",
     "dev": "eleventy --serve",
@@ -19,18 +20,18 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^3.1.0",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy": "^3.0.0-alpha.17",
+    "@11ty/eleventy-img": "^4.0.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "browserslist": "^4.21.10",
-    "concurrently": "^6.2.0",
-    "dayjs": "^1.11.9",
-    "esbuild": "^0.19.1",
+    "browserslist": "^4.23.2",
+    "concurrently": "^8.2.2",
+    "dayjs": "^1.11.12",
+    "esbuild": "^0.23.0",
     "htm": "^3.1.1",
     "html-minifier-terser": "^7.2.0",
-    "lightningcss": "^1.21.5",
-    "linkedom": "^0.15.1",
-    "vanillah": "^1.0.7"
+    "lightningcss": "^1.25.1",
+    "linkedom": "^0.18.4",
+    "vanillah": "^1.0.8"
   }
 }

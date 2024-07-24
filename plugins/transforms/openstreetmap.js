@@ -1,7 +1,7 @@
-const vanillaH = require('vanillah');
-const htm = require('htm');
+import vanillaH from 'vanillah';
+import htm from 'htm';
 
-module.exports = function ({document}) {
+export default function ({document}) {
   
   const h = vanillaH(document);
   const html = htm.bind(h);

@@ -1,16 +1,16 @@
-const syntaxHighlightPlugin = require('@11ty/eleventy-plugin-syntaxhighlight');
+import syntaxHighlightPlugin from '@11ty/eleventy-plugin-syntaxhighlight';
 
-const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const { EleventyRenderPlugin } = require('@11ty/eleventy');
+import rssPlugin from '@11ty/eleventy-plugin-rss';
+import { EleventyRenderPlugin } from '@11ty/eleventy';
 
-const esbuildPlugin = require('./esbuild');
-const lightningCSSPlugin = require('./lightning-css');
-const htmlTransformPlugin = require('./html-transform');
-const imagePlugin = require('./image');
-const { filterPlugin } = require('./filters');
-const { eventsPlugin } = require('./events');
+import esbuildPlugin from './esbuild.js';
+import lightningCSSPlugin from './lightning-css.js';
+import htmlTransformPlugin from './html-transform.js';
+import imagePlugin from './image.js';
+import { filterPlugin } from './filters/index.js';
+import { eventsPlugin } from './events/index.js';
 
-module.exports = (eleventyConfig) => {
+export default (eleventyConfig) => {
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(esbuildPlugin);

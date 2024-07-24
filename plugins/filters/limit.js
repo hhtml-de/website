@@ -1,5 +1,5 @@
 /** Returns the first `limit` elements of the the given array. */
-module.exports = (array, limit) => {
+export default (array, limit) => {
   if (limit < 0) {
     throw new Error(`Negative limits are not allowed: ${limit}.`);
   }

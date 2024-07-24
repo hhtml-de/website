@@ -1,7 +1,7 @@
 // TODO: maybe use this
 // https://github.com/mattdesl/optimize-shader
 
-module.exports = function (str) {
+export default function (str) {
   // this trims whitespaces, strips comments, removes newlines
   return str
     .replace(/\/\*(.|[\n\t])*\*\//g, '')

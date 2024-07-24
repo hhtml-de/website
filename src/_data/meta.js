@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   url: process.env.URL || 'http://localhost:8080',
   siteName: "HHTML",
   siteDescription: "Hamburg HTML meet-up, a meet-up about HTML, Accessibility, Web Performance and web standards",

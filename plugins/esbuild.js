@@ -1,10 +1,10 @@
 // kudos to https://github.com/madrilene/eleventy-excellent
 // CSS and JavaScript as first-class citizens in Eleventy: https://pepelsbey.dev/articles/eleventy-css-js/
 
-const esbuild = require('esbuild');
-const path = require('path');
+import esbuild from 'esbuild';
+import path from 'path';
 
-module.exports = (eleventyConfig) => {
+export default (eleventyConfig) => {
   eleventyConfig.addTemplateFormats('js');
 
   eleventyConfig.addExtension('js', {

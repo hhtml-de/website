@@ -1,4 +1,4 @@
-const svgToJpeg = require('./svg-to-jpeg.js');
+import svgToJpeg from './svg-to-jpeg.js';
 
 function eventsPlugin(eleventyConfig) {
   // build events
@@ -7,7 +7,7 @@ function eventsPlugin(eleventyConfig) {
   });
 }
 
-module.exports = {
+export {
   svgToJpeg,
   eventsPlugin,
 };

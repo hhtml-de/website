@@ -1,4 +1,4 @@
-const dayjs = require('dayjs');
+import dayjs from 'dayjs';
 
 /** Converts the given date string to ISO8610 format. */
-module.exports = (dateString) => dayjs(dateString).toISOString();
+export default (dateString) => dayjs(dateString).toISOString();

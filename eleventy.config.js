@@ -1,6 +1,6 @@
-const pluginsPlugin = require('./plugins');
+import pluginsPlugin from './plugins/index.js';
 
-module.exports = (eleventyConfig) => {
+export default (eleventyConfig) => {
   // custom watch targets
   eleventyConfig.addWatchTarget('./src/assets');
 
