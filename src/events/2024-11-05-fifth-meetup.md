@@ -10,6 +10,8 @@ changes:
     description: Changed the date. HHTML will take place on November 5th, 2024
   - date: 2024-07-27
     description: New speaker infos. Manuel Matuzovic will most probably give a talk (to be announced) and you can win a copy of his new Accessibility Cookbook.
+  - date: 2024-07-27 19:10:00
+    description: Updated COVID19 policy. We kindly request you to test yourself upfront. Thank you for your cooperation.
 ---
 
 There is going to be a fifth edition of our Hamburg HTML meetup, all about the web platform and accessibility.
@@ -55,3 +57,7 @@ We will update this post as soon as we put the registration link online.
 You will get an update notification when you subscribe to the RSS feed.
 
 ## COVID 19 policy
+
+We kindly request you to test yourself upfront. Please stay at home in case you test positive or experience symptoms of raspiratory diseases.
+
+Thank you for your cooperation.
