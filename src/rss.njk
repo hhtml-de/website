@@ -61,7 +61,7 @@ excludeFromSitemap: true
       <description>An update notification on "{{ post.data.title }}"</description>
       <content:encoded><![CDATA[
         <p>Update notification on "{{ post.data.title}}":</p>
-        <p>{{ change.title }}</p>
+        <p>{% if change.description %}{{ change.description }}{% else %}{{ change.title }}{% endif %}</p>
         <p><a href="{{ absolutePostUrl}}">Link to article</a></p>
       ]]></content:encoded>
       <category><![CDATA[update]]></category>

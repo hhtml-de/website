@@ -1,12 +1,15 @@
 ---
 title: Fifth Meetup of the Hamburg HTML meetup, in-person
+date: 2024-07-26
 eventDate: 2024-11-05
 eventTime: 6pm CEST
 description: We're excited to invite you to our upcoming Hamburg HTML Meetup, happening in-person at Factorial GmbH
 type: in-person
 changes:
-  - date: 2024-11-05
-    title: Changed the date. HHTML will take place on November 5th, 2024
+  - date: 2024-07-25
+    description: Changed the date. HHTML will take place on November 5th, 2024
+  - date: 2024-07-27
+    description: New speaker infos. Manuel Matuzovic will most probably give a talk (to be announced) and you can win a copy of his new Accessibility Cookbook.
 ---
 
 There is going to be a fifth edition of our Hamburg HTML meetup, all about the web platform and accessibility.
@@ -39,10 +42,16 @@ We are planning to have 2 to 3 talk slots. The rough outline of our agenda for n
 
 We are looking for talks. Our [Call For Proposals](https://hhtml.de/call-for-proposals/) is now officially open.
 
-Rumors say there might be a talk by [Manuel](https://front-end.social/@matuzo)?
+There will probably be a talk by [Manuel Matuzovic](https://front-end.social/@matuzo). Details are to be discussed and will be announced as soon as we know more.
+
+Manuel will also give away a copy of his new book, the [Accessibility Cookbook](https://accessibility-cookbook.com) in a raffle.
+
+Lea can fully recommend it, a practical hands-on guide to accessibility on the web.
 
 ## RSVP
 
 We will update this post as soon as we put the registration link online.
 
 You will get an update notification when you subscribe to the RSS feed.
+
+## COVID 19 policy
