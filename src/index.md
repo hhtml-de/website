@@ -10,6 +10,6 @@ eleventyExcludeFromCollections: true
 
 Welcome to the Hamburg HTML meetup. HTML is the most underrated programming language. This is why it deserves a meetup :).
 
-We'd like to cover HTML related topics like semantic markup, accessibility, screen readers, SEO, performance and progressive enhancement.
+We'd like to cover all topics related to HTML and the web platform in a way, such as the HTML Living Standard, Web standards, Accessibility, Screen readers, modern CSS techniques, performance and progressive enhancement.
 
 {% include "upcoming-past-events.njk" %}
