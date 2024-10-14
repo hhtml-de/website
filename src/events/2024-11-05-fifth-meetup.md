@@ -12,6 +12,8 @@ changes:
     description: New speaker infos. Manuel Matuzovic will most probably give a talk (to be announced) and you can win a copy of his new Accessibility Cookbook.
   - date: 2024-07-27 19:10:00
     description: Updated COVID19 policy. We kindly request you to test yourself upfront. Thank you for your cooperation.
+  - date: 2024-10-14
+    description: Added RSVP link.
 ---
 
 There is going to be a fifth edition of our Hamburg HTML meetup, all about the web platform and accessibility.
@@ -52,12 +54,14 @@ Lea can fully recommend it, a practical hands-on guide to accessibility on the w
 
 ## RSVP
 
-We will update this post as soon as we put the registration link online.
-
-You will get an update notification when you subscribe to the RSS feed.
+Meetup link: <https://www.meetup.com/de-DE/hhhtml/events/304004563/>
 
 ## COVID 19 policy
 
 We kindly request you to test yourself upfront. Please stay at home in case you test positive or experience symptoms of raspiratory diseases.
 
 Thank you for your cooperation.
+
+## Updates
+
+You will get an update notification when you subscribe to the RSS feed.
