@@ -34,10 +34,10 @@ They also have a series of [meetups related to webdev and digital products](http
 We are planning to have 2 to 3 talk slots. The rough outline of our agenda for now is:
 
 - Doors open will be around 6pm CEST
-- 6:30pm Hello Everyone
-- 6:45pm Talk Slot 1
+- 6:00pm Hello Everyone
+- 6:30pm Manuel Matuzovic - The UX of HTML
 - Break
-- 7:30pm Talk Slot 2
+- 7:30pm Marco Bretschneider - ARIA - Why we struggle so much with accessibility
 - More talks?
 - Networking
 - 10:00pm Closing
