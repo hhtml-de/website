@@ -14,6 +14,8 @@ changes:
     description: Updated COVID19 policy. We kindly request you to test yourself upfront. Thank you for your cooperation.
   - date: 2024-10-14
     description: Added RSVP link.
+  - date: 2024-11-01
+    description: We finalized the details about the evening.
 ---
 
 There is going to be a fifth edition of our Hamburg HTML meetup, all about the web platform and accessibility.
@@ -31,22 +33,24 @@ They also have a series of [meetups related to webdev and digital products](http
 
 ## Rough Agenda
 
-We are planning to have 2 to 3 talk slots. The rough outline of our agenda for now is:
+The rough outline of our agenda is:
 
-- Doors open will be around 6pm CEST
+- Doors open will be around 6:00pm CEST
 - 6:30pm Hello Everyone
-- 6:45pm Talk Slot 1
-- Break
-- 7:30pm Talk Slot 2
-- More talks?
-- Networking
-- 10:00pm Closing
+- 6:45pm Marco Bretschneider - ARIA - Why we struggle so much with accessibility
+- 7:30pm Manuel Matuzovic - The UX of HTML
+- 8:30pm Alex Claes - Live Coding: Fixing Accessibility Issues
+- 9-latest 10pm Mingle & Closing
+
+The times can vary a bit. There will be Pizza. Probably between the second and third talk.
 
 ## Call for Proposals
 
-We are looking for talks. Our [Call For Proposals](https://hhtml.de/call-for-proposals/) is now officially open.
+Right now, the talks for the evening are set. We don't plan to schedule any further ones for the evening. 
 
-There will probably be a talk by [Manuel Matuzovic](https://front-end.social/@matuzo). Details are to be discussed and will be announced as soon as we know more.
+If you plan to give a talk at some later date, feel free to reach out via our [Call For Proposals Issue Board](https://hhtml.de/call-for-proposals/) and include possible dates into your proposal.
+
+## Raffle
 
 Manuel will also give away a copy of his new book, the [Accessibility Cookbook](https://accessibility-cookbook.com) in a raffle.
 
