@@ -35,10 +35,9 @@ We are planning to have 2 to 3 talk slots. The rough outline of our agenda for n
 
 - Doors open will be around 6pm CEST
 - 6:00pm Hello Everyone
-- 6:30pm Manuel Matuzovic - The UX of HTML
-- Break
-- 7:30pm Marco Bretschneider - ARIA - Why we struggle so much with accessibility
-- More talks?
+- 6:15pm Marco Bretschneider - ARIA - Why we struggle so much with accessibility
+- 7:15pm Manuel Matuzovic - The UX of HTML
+- 8:15pm Talk 3
 - Networking
 - 10:00pm Closing
 
