@@ -33,8 +33,8 @@ They also have a series of [meetups related to webdev and digital products](http
 
 We are planning to have 2 to 3 talk slots. The rough outline of our agenda for now is:
 
-- Doors open will be around 6pm CEST
-- 6:00pm Hello Everyone
+- Doors open will be around 5:30pm CEST
+- 6:10pm Hello Everyone
 - 6:15pm Marco Bretschneider - ARIA - Why we struggle so much with accessibility
 - 7:15pm Manuel Matuzovic - The UX of HTML
 - 8:15pm Talk 3
