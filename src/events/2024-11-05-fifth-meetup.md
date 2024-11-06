@@ -22,10 +22,7 @@ changes:
     description: Add slides "Fixing Accessibility Issues" by Alex Claes
 ---
 
-There is going to be a fifth edition of our Hamburg HTML meetup, all about the web platform and accessibility.
-_HTML 5_, so to say 😅.
-
-It's going to be an in-person meetup, scheduled <strong>November 5th, 2024, 6pm at [raumF](https://raum-f.io/) by Factorial.</strong>
+The fifth edition of our Hamburg HTML meetup was an in-person meetup, which took place on <strong>November 5th, 2024, 6pm at raumF by Factorial.</strong>
 
 ## Factorial
 
