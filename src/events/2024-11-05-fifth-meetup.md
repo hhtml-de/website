@@ -44,6 +44,7 @@ The rough outline of our agenda is:
 ## Slides
 
 - [Alex Claes - Fixing Accessibility Issues](https://claes.tech/connect/hhtml/)
+- [Marco Bretschneider – ARIA - Why we struggle so much with accessibility](https://talks.bretschneider.name/2024-11-05_Aria_HHTML.pdf)
 
 ## Summary
 
