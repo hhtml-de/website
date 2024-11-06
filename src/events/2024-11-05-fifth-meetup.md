@@ -16,6 +16,8 @@ changes:
     description: Added RSVP link.
   - date: 2024-11-01
     description: We finalized the details about the evening.
+  - date: 2024-11-06
+    description: Add summary for the evening
 ---
 
 There is going to be a fifth edition of our Hamburg HTML meetup, all about the web platform and accessibility.
@@ -42,30 +44,25 @@ The rough outline of our agenda is:
 - 8:30pm Alex Claes - Live Coding: Fixing Accessibility Issues
 - 9-latest 10pm Mingle & Closing
 
-The times can vary a bit. There will be Pizza. Probably between the second and third talk.
+## Summary
 
-## Call for Proposals
+The meetup at Factorial was again a blast. 💜
 
-Right now, the talks for the evening are set. We don't plan to schedule any further ones for the evening. 
+The motto of the Hamburg HTML meetup is about putting HTML back into the `:focus` of web development, which perfectly fits for the evening. Putting more love into your HTML definitely helps you building better and more accessible user experiences. We had three talks for the evening, which complemented each other pretty well.
 
-If you plan to give a talk at some later date, feel free to reach out via our [Call For Proposals Issue Board](https://hhtml.de/call-for-proposals/) and include possible dates into your proposal.
+The first talk by Marco was about ARIA and why we struggle so much about accessibility in web development. It shows there is not only one tree (the DOM) to take care of, but also another one (the accessibility tree). You will need to take care of both trees.
 
-## Raffle
+Also, it debunked the "don't use ARIA at all" rule: Yes, prefer native HTML elements over ARIA attributes, but there isn't always a native element equivalent available. One example is the `aria-current="page"` attribute, which marks a link as the current active link in a navigation.
 
-Manuel will also give away a copy of his new book, the [Accessibility Cookbook](https://accessibility-cookbook.com) in a raffle.
+Also, put users first. When building too much from an engineer's perspective, there is the risk of building an over-complex application which takes a high cognitive load. That can easily overwhelm users. Integrate your user into the development process, ask them what they need. It might save you from over-engineering.
 
-Lea can fully recommend it, a practical hands-on guide to accessibility on the web.
+Another fun fact Marco made aware of was: we often use assistive technology without even realizing at all. You can't look at a screen while driving a car, so browsing a playlist for your favorite song while driving is out of question. But there often is a forward/backward button on a steering wheel where you can skip to your favorite song. That's assistive technology. A situative one, as you can't operate the visual user interface on a display in that situation while
+driving.
 
-## RSVP
+Aside, the coolest fun fact I learned: CSS has about 770 properties and values. Java has about 70 keywords. This is a fun point to bring up whenever a Java developer trivializes CSS again.
 
-Meetup link: <https://www.meetup.com/de-DE/hhhtml/events/304004563/>
+Next talk was by [Manuel](https://matuzo.at): The UX of HTML, inspired by [Vasilis](https://www.htmhell.dev/adventcalendar/2023/1/). Manuel told us a very good trick: your accessibility-unaware coworkers/students often don't care about semantics. They may even ask: "do we have to take care about semantics and shit?". 
 
-## COVID 19 policy
+Then, you can say "no, but do care about the user experience". And that's a trick answer, as building with semantics can greatly increase the UX of HTML: When using a plain link instead of a clickable div, there are great usability wins: you can right-click the link, you can open it in a new tab, you can copy the url, you can drag the link into the bookmark bar. So, a good practice is: don't talk about semantics, talk about the user experience wins by following accessibility best practices.
 
-We kindly request you to test yourself upfront. Please stay at home in case you test positive or experience symptoms of raspiratory diseases.
-
-Thank you for your cooperation.
-
-## Updates
-
-You will get an update notification when you subscribe to the RSS feed.
+The last talk was a highly interactive format in the form of live coding. [Alexander](https://claes.tech) brought some cool HTML examples with accessibility issues and tried them out with a screenreader. Simultaneously, he fixed the accessibility issues together with the audience. Again, all this complemented each other pretty well, as if it was specifically made for the former talks.
